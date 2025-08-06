@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #d8ebe3;
+    }
+    .menu-app {
+      display: flex;
+      gap: 30px;
+      padding: 20px;
+    }
+    .menu-list, .menu-detail {
+      background-color: white;
+      border-radius: 16px;
+      padding: 20px;
+      width: 50%;
+    }
+    .item {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 10px;
+    }
+    .item h4 {
+      margin: 5px 0;
+    }
+    .add-to-cart {
+      background-color: #009688;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-app">
+    <div class="menu-list">
+      <h2>Menu</h2>
+      <div class="item">
+        <h4>Pear & Orange</h4>
+        <p>$25.00 | ⏱️ 30 min | ⭐ 4.8</p>
+      </div>
+      <div class="item">
+        <h4>Meat & Mushrooms</h4>
+        <p>$37.00 | ⏱️ 30 min | ⭐ 5.0</p>
+      </div>
+    </div>
+    <div class="menu-detail">
+      <h2>Pear & Orange</h2>
+      <p>25.00$ | 20 min | ⭐ 4.8</p>
+      <p>Served with sauces, berries, and maple syrup. A popular breakfast choice worldwide.</p>
+      <h3>Recently Viewed</h3>
+      <ul>
+        <li>Egg & Bread</li>
+        <li>Sweet Pancake</li>
+      </ul>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
